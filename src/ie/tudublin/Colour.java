@@ -9,5 +9,4 @@ import processing.data.TableRow;
 public class Colour extends PApplet
 {
     
-
 }
