@@ -29,6 +29,7 @@ public class UI extends PApplet
 
 	public void setup() 
 	{
+		printColours();
 	}
 	
 	public void draw()
@@ -40,18 +41,18 @@ public class UI extends PApplet
 
         for (TableRow row : table.rows()) {
             Colour colour = new Colour(row);
-            colour.add(colour);
+            colours.add(colour);
         }
 	}
 
 	public void printColours() {
-        for (Colour colour: colours) {
+        for (Colour colour: colour) {
             System.out.println(colour);
         }
 	}
 	
 	//input integer number, gives back colour associated
-	public Color findColor(int value)
+	public Colour findColor(int value)
 	{
 
 	}

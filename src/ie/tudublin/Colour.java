@@ -15,10 +15,10 @@ public class Colour extends PApplet
     public int value;
     private String colour;
     
-    
-    public void setR()
+    //Setter/Getters
+    public void setR(int r)
     {
-        this.setR = r;
+        this.r = r;
     }
 
     public int getR()
@@ -26,9 +26,9 @@ public class Colour extends PApplet
         return r;
     }
 
-    public void setG()
+    public void setG(int g)
     {
-        this.setG = g;
+        this.g = g;
     }
 
     public int getG()
@@ -36,9 +36,9 @@ public class Colour extends PApplet
         return g;
     }
     
-    public void setB()
+    public void setB(int b)
     {
-        this.setB = b;
+        this.b = b;
     }
 
     public int getB()
@@ -46,9 +46,9 @@ public class Colour extends PApplet
         return b;
     }
 
-    public void setValue()
+    public void setValue(int value)
     {
-        this.setValue = value;
+        this.value = value;
     }
 
     public int getValue()
@@ -56,9 +56,9 @@ public class Colour extends PApplet
         return value;
     }
 
-    private void setColour()
+    private void setColour(String colour)
     {
-        this.setColour = colour;
+        this.colour = colour;
     }
 
     private String getColour()
@@ -66,7 +66,7 @@ public class Colour extends PApplet
         return colour;
     }
     
-    public Colour(TableRow row  )
+    public Colour(TableRow row)
     {
         colour = row.getString("colour");
         value = row.getInt("value");
