@@ -8,6 +8,14 @@ import processing.data.TableRow;
 
 public class UI extends PApplet
 {	
+	//declare variables
+	public int border;
+	public int x;
+	public int y;
+	public int x1;
+	public int y1;
+	public int color;
+
 	public void separate(int value)
 	{
 		int hundreds = (value / 100);
@@ -33,7 +41,17 @@ public class UI extends PApplet
 	}
 	
 	public void draw()
-	{			
+	{
+		background(245);
+
+		//drawing of lines and rects of transistors
+		//100 px gap
+		border = 100;
+		
+
+		
+
+
 	}
 
 	//load colours into ArrayList
@@ -42,7 +60,7 @@ public class UI extends PApplet
 
         for (TableRow row : table.rows()) {
             Colour colour = new Colour(row);
-            colours.add(colour);
+			colour.add(colour);
         }
 	}
 
