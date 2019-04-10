@@ -14,12 +14,12 @@ public class Resistor extends PApplet
     public int hundred;
 
     //public int value(int value) 
-    {
+    //{
         //int hundred = (value / 100);
         //int ten = (value - (hundred * 100)) / 10;
         //int one = value - ((hundred * 100) + (ten * 10));
 
-    }//end value
+   // }end value
 
     public int ones()
     {
