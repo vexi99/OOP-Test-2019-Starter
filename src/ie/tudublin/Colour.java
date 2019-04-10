@@ -65,6 +65,15 @@ public class Colour extends PApplet
     {
         return colour;
     }
+    
+    public colour(TableRow row  )
+    {
+        colour = row.getString("colour");
+        value = row.getInt("value");
+        r = row.getInt("r");
+        g = row.getInt("g");
+        b = row.getInt("b");
+    }
 
 
     
