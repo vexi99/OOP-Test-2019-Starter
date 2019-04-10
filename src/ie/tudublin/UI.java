@@ -48,7 +48,13 @@ public class UI extends PApplet
         for (Colour colour: colours) {
             System.out.println(colour);
         }
-    }
+	}
+	
+	//input integer number, gives back colour associated
+	public Color findColor(int value)
+	{
+
+	}
 
 	public ArrayList<Colour> colour = new ArrayList<Colour>();
 }
