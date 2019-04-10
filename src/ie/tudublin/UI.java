@@ -45,6 +45,8 @@ public class UI extends PApplet
         }
 	}
 
+
+
 	public void printColours() {
         for (Colour colour: colour) {
             System.out.println(colour);
@@ -58,4 +60,5 @@ public class UI extends PApplet
 	}
 
 	public ArrayList<Colour> colour = new ArrayList<Colour>();
+	public ArrayList<Resistor> resistor = new ArrayList<Resistor>();
 }
