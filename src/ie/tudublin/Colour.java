@@ -75,6 +75,11 @@ public class Colour extends PApplet
         b = row.getInt("b");
     }
 
+    public String toString()
+    {
+        return colour + "\t" + value + "\t" + r + "\t" + g + "\t" + b ;  
+    }
+
 
     
 }
