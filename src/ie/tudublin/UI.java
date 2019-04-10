@@ -43,8 +43,6 @@ public class UI extends PApplet
             colour.add(colour);
         }
 	}
-	
 
-
-	private ArrayList<Colour> colour = new ArrayList<Colour>();
+	public ArrayList<Colour> colour = new ArrayList<Colour>();
 }
