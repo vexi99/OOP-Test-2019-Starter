@@ -54,7 +54,7 @@ public class UI extends PApplet
 	//input integer number, gives back colour associated
 	public Colour findColor(int value)
 	{
-
+		//TODO
 	}
 
 	public ArrayList<Colour> colour = new ArrayList<Colour>();
